@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(0.98 0.006 218);
+  --color-foreground: oklch(0.14 0.04 225);
+  --color-primary: oklch(0.58 0.20 215);
+  --color-primary-foreground: oklch(0.98 0.005 215);
+  --color-secondary: oklch(0.92 0.04 218);
+  --color-secondary-foreground: oklch(0.22 0.05 225);
+  --color-muted: oklch(0.94 0.008 218);
+  --color-muted-foreground: oklch(0.50 0.04 218);
+  --color-accent: oklch(0.88 0.06 215);
+  --color-accent-foreground: oklch(0.22 0.05 225);
+  --color-border: oklch(0.88 0.012 218);
+  --color-ivory: oklch(0.97 0.006 218);
+  --color-primary-dark: oklch(0.44 0.17 215);
+  --color-hero-bg: oklch(0.10 0.05 248);
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  --radius: 0.25rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.hero-grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.dot-pattern {
+  background-image: radial-gradient(circle, oklch(0.58 0.20 215 / 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.laser-border {
+  border: 1px solid oklch(0.58 0.20 215 / 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 3px;
+}

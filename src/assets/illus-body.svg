@@ -1,0 +1,99 @@
+<svg viewBox="0 0 600 750" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="ib-glow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#3B9EDB" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3B9EDB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="300" cy="370" rx="240" ry="300" fill="url(#ib-glow)"/>
+
+  <!-- Body silhouette — minimal, elegant outline -->
+  <!-- Head -->
+  <ellipse cx="300" cy="130" rx="52" ry="60" stroke="#3B9EDB" stroke-width="1.5" opacity="0.55"/>
+  <!-- Neck -->
+  <line x1="285" y1="188" x2="280" y2="210" stroke="#3B9EDB" stroke-width="1.5" opacity="0.40"/>
+  <line x1="315" y1="188" x2="320" y2="210" stroke="#3B9EDB" stroke-width="1.5" opacity="0.40"/>
+  <!-- Shoulders -->
+  <path d="M 280 210 C 255 218 230 232 215 255"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
+  <path d="M 320 210 C 345 218 370 232 385 255"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
+  <!-- Torso sides -->
+  <path d="M 215 255 C 200 300 198 350 205 395"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
+  <path d="M 385 255 C 400 300 402 350 395 395"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.50"/>
+  <!-- Waist/hip -->
+  <path d="M 205 395 C 210 415 220 430 240 440"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+  <path d="M 395 395 C 390 415 380 430 360 440"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+  <!-- Upper legs -->
+  <path d="M 240 440 C 245 470 248 510 245 550"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+  <path d="M 360 440 C 355 470 352 510 355 550"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+  <!-- Lower legs -->
+  <path d="M 245 550 C 242 580 240 610 242 640"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.40"/>
+  <path d="M 355 550 C 358 580 360 610 358 640"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.40"/>
+
+  <!-- Arms (left) -->
+  <path d="M 215 255 C 200 290 192 330 190 370"
+        stroke="#3B9EDB" stroke-width="1.2" stroke-linecap="round" opacity="0.40"/>
+  <path d="M 190 370 C 188 400 190 425 195 445"
+        stroke="#3B9EDB" stroke-width="1.0" stroke-linecap="round" opacity="0.35"/>
+  <!-- Arms (right) -->
+  <path d="M 385 255 C 400 290 408 330 410 370"
+        stroke="#3B9EDB" stroke-width="1.2" stroke-linecap="round" opacity="0.40"/>
+  <path d="M 410 370 C 412 400 410 425 405 445"
+        stroke="#3B9EDB" stroke-width="1.0" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Treatment zone indicators with circles -->
+  <!-- Underarms -->
+  <circle cx="218" cy="268" r="12" stroke="#3B9EDB" stroke-width="1.0" opacity="0.38" stroke-dasharray="3,2"/>
+  <circle cx="382" cy="268" r="12" stroke="#3B9EDB" stroke-width="1.0" opacity="0.38" stroke-dasharray="3,2"/>
+
+  <!-- Bikini / lower torso -->
+  <circle cx="300" cy="430" r="20" stroke="#3B9EDB" stroke-width="1.0" opacity="0.30" stroke-dasharray="4,2"/>
+
+  <!-- Leg zones — lower leg treatment dots -->
+  <circle cx="243" cy="580" r="8" stroke="#6EC6FF" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="357" cy="580" r="8" stroke="#6EC6FF" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="242" cy="620" r="6" stroke="#6EC6FF" stroke-width="0.8" opacity="0.30"/>
+  <circle cx="358" cy="620" r="6" stroke="#6EC6FF" stroke-width="0.8" opacity="0.30"/>
+
+  <!-- Back laser grid on torso -->
+  <line x1="240" y1="265" x2="360" y2="265" stroke="#3B9EDB" stroke-width="0.5" opacity="0.20"/>
+  <line x1="230" y1="295" x2="370" y2="295" stroke="#3B9EDB" stroke-width="0.5" opacity="0.18"/>
+  <line x1="225" y1="325" x2="375" y2="325" stroke="#3B9EDB" stroke-width="0.5" opacity="0.18"/>
+  <line x1="222" y1="355" x2="378" y2="355" stroke="#3B9EDB" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Vertical torso grid -->
+  <line x1="275" y1="220" x2="275" y2="430" stroke="#3B9EDB" stroke-width="0.4" opacity="0.12"/>
+  <line x1="300" y1="190" x2="300" y2="430" stroke="#3B9EDB" stroke-width="0.4" opacity="0.14"/>
+  <line x1="325" y1="220" x2="325" y2="430" stroke="#3B9EDB" stroke-width="0.4" opacity="0.12"/>
+
+  <!-- Laser pulses on legs -->
+  <line x1="243" y1="545" x2="243" y2="572" stroke="#3B9EDB" stroke-width="1.0" opacity="0.45" stroke-dasharray="3,2"/>
+  <line x1="357" y1="545" x2="357" y2="572" stroke="#3B9EDB" stroke-width="1.0" opacity="0.45" stroke-dasharray="3,2"/>
+  <line x1="248" y1="560" x2="248" y2="572" stroke="#6EC6FF" stroke-width="0.7" opacity="0.35" stroke-dasharray="2,2"/>
+  <line x1="352" y1="560" x2="352" y2="572" stroke="#6EC6FF" stroke-width="0.7" opacity="0.35" stroke-dasharray="2,2"/>
+
+  <!-- Treatment dots on arm -->
+  <circle cx="194" cy="360" r="3" stroke="#3B9EDB" stroke-width="0.8" opacity="0.38"/>
+  <circle cx="192" cy="390" r="3" stroke="#3B9EDB" stroke-width="0.8" opacity="0.35"/>
+  <circle cx="406" cy="360" r="3" stroke="#3B9EDB" stroke-width="0.8" opacity="0.38"/>
+  <circle cx="408" cy="390" r="3" stroke="#3B9EDB" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- Sparkle accents -->
+  <path d="M 455 190 L 457 183 L 459 190 L 466 192 L 459 194 L 457 201 L 455 194 L 448 192 Z"
+        fill="#3B9EDB" opacity="0.55"/>
+  <path d="M 140 320 L 142 314 L 144 320 L 150 322 L 144 324 L 142 330 L 140 324 L 134 322 Z"
+        fill="#6EC6FF" opacity="0.45"/>
+  <circle cx="470" cy="330" r="2.5" fill="#3B9EDB" opacity="0.45"/>
+  <circle cx="130" cy="430" r="2.0" fill="#3B9EDB" opacity="0.40"/>
+  <circle cx="458" cy="480" r="2.0" fill="#6EC6FF" opacity="0.38"/>
+</svg>

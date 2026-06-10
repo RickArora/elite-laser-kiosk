@@ -1,0 +1,95 @@
+<svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="if-glow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#3B9EDB" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3B9EDB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="300" cy="320" rx="220" ry="260" fill="url(#if-glow)"/>
+
+  <!-- Concentric glow rings around face -->
+  <ellipse cx="300" cy="330" rx="200" ry="240" stroke="#3B9EDB" stroke-width="0.5" opacity="0.10"/>
+  <ellipse cx="300" cy="330" rx="175" ry="210" stroke="#3B9EDB" stroke-width="0.6" opacity="0.14"/>
+  <ellipse cx="300" cy="330" rx="150" ry="182" stroke="#3B9EDB" stroke-width="0.8" opacity="0.18"/>
+
+  <!-- Face oval -->
+  <ellipse cx="300" cy="340" rx="105" ry="138" stroke="#3B9EDB" stroke-width="2.0" opacity="0.60"/>
+
+  <!-- Forehead hairline indication -->
+  <path d="M 215 250 C 230 225 260 210 300 208 C 340 206 370 221 385 250"
+        stroke="#3B9EDB" stroke-width="1.0" stroke-linecap="round" opacity="0.30"/>
+
+  <!-- Eyebrows -->
+  <path d="M 240 295 C 252 285 268 282 282 286"
+        stroke="#3B9EDB" stroke-width="2.2" stroke-linecap="round" opacity="0.70"/>
+  <path d="M 318 286 C 332 282 348 285 360 295"
+        stroke="#3B9EDB" stroke-width="2.2" stroke-linecap="round" opacity="0.70"/>
+
+  <!-- Eyes — closed / relaxed -->
+  <path d="M 242 313 C 256 305 270 305 284 313"
+        stroke="#3B9EDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+  <path d="M 316 313 C 330 305 344 305 358 313"
+        stroke="#3B9EDB" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+  <!-- Lower lash lines -->
+  <path d="M 242 314 C 256 322 270 322 284 314"
+        stroke="#3B9EDB" stroke-width="0.8" stroke-linecap="round" opacity="0.25"/>
+  <path d="M 316 314 C 330 322 344 322 358 314"
+        stroke="#3B9EDB" stroke-width="0.8" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- Nose -->
+  <path d="M 300 330 L 288 365 C 288 370 295 374 300 373 C 305 374 312 370 312 365 Z"
+        stroke="#3B9EDB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.40"/>
+
+  <!-- Lips -->
+  <path d="M 272 395 C 282 388 295 386 300 388 C 305 386 318 388 328 395"
+        stroke="#3B9EDB" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+  <path d="M 272 395 C 282 402 295 405 300 404 C 305 405 318 402 328 395"
+        stroke="#3B9EDB" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Laser treatment points on face -->
+  <!-- Upper lip zone -->
+  <circle cx="288" cy="385" r="3.5" stroke="#3B9EDB" stroke-width="1.2" opacity="0.55"/>
+  <circle cx="300" cy="383" r="3.5" stroke="#3B9EDB" stroke-width="1.2" opacity="0.55"/>
+  <circle cx="312" cy="385" r="3.5" stroke="#3B9EDB" stroke-width="1.2" opacity="0.55"/>
+
+  <!-- Chin zone -->
+  <circle cx="292" cy="440" r="3" stroke="#3B9EDB" stroke-width="1.0" opacity="0.45"/>
+  <circle cx="300" cy="444" r="3" stroke="#3B9EDB" stroke-width="1.0" opacity="0.45"/>
+  <circle cx="308" cy="440" r="3" stroke="#3B9EDB" stroke-width="1.0" opacity="0.45"/>
+
+  <!-- Cheek right zone -->
+  <circle cx="358" cy="345" r="2.5" stroke="#6EC6FF" stroke-width="0.9" opacity="0.40"/>
+  <circle cx="366" cy="358" r="2.5" stroke="#6EC6FF" stroke-width="0.9" opacity="0.40"/>
+  <circle cx="358" cy="370" r="2.5" stroke="#6EC6FF" stroke-width="0.9" opacity="0.40"/>
+
+  <!-- Cheek left zone -->
+  <circle cx="242" cy="345" r="2.5" stroke="#6EC6FF" stroke-width="0.9" opacity="0.40"/>
+  <circle cx="234" cy="358" r="2.5" stroke="#6EC6FF" stroke-width="0.9" opacity="0.40"/>
+  <circle cx="242" cy="370" r="2.5" stroke="#6EC6FF" stroke-width="0.9" opacity="0.40"/>
+
+  <!-- Laser pulses hitting treatment points (vertical lines) -->
+  <line x1="288" y1="350" x2="288" y2="382" stroke="#3B9EDB" stroke-width="1.0" opacity="0.50" stroke-dasharray="3,2"/>
+  <line x1="300" y1="345" x2="300" y2="380" stroke="#3B9EDB" stroke-width="1.2" opacity="0.60" stroke-dasharray="3,2"/>
+  <line x1="312" y1="350" x2="312" y2="382" stroke="#3B9EDB" stroke-width="1.0" opacity="0.50" stroke-dasharray="3,2"/>
+
+  <!-- Precision cross hairs on eyebrow zones -->
+  <line x1="258" y1="280" x2="268" y2="280" stroke="#6EC6FF" stroke-width="0.8" opacity="0.40"/>
+  <line x1="263" y1="275" x2="263" y2="285" stroke="#6EC6FF" stroke-width="0.8" opacity="0.40"/>
+  <line x1="338" y1="280" x2="348" y2="280" stroke="#6EC6FF" stroke-width="0.8" opacity="0.40"/>
+  <line x1="343" y1="275" x2="343" y2="285" stroke="#6EC6FF" stroke-width="0.8" opacity="0.40"/>
+
+  <!-- Serum / energy drops above face -->
+  <path d="M 300 185 C 298 194 296 205 298 211 C 300 216 302 216 302 211 C 303 205 301 194 300 185 Z"
+        fill="#3B9EDB" opacity="0.35"/>
+  <path d="M 285 192 C 283 199 282 208 284 213 C 285 217 288 217 288 213 C 289 208 287 200 285 192 Z"
+        fill="#3B9EDB" opacity="0.25"/>
+
+  <!-- Sparkle accents -->
+  <path d="M 410 250 L 412 243 L 414 250 L 421 252 L 414 254 L 412 261 L 410 254 L 403 252 Z"
+        fill="#3B9EDB" opacity="0.55"/>
+  <path d="M 175 270 L 177 264 L 179 270 L 185 272 L 179 274 L 177 280 L 175 274 L 169 272 Z"
+        fill="#6EC6FF" opacity="0.45"/>
+  <circle cx="430" cy="310" r="2.5" fill="#3B9EDB" opacity="0.45"/>
+  <circle cx="170" cy="390" r="2.0" fill="#3B9EDB" opacity="0.40"/>
+</svg>

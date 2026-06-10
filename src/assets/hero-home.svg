@@ -1,0 +1,95 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="hh-glow1" cx="60%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#3B9EDB" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#3B9EDB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hh-glow2" cx="75%" cy="60%" r="30%">
+      <stop offset="0%" stop-color="#3B9EDB" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#3B9EDB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background glows -->
+  <ellipse cx="540" cy="240" rx="260" ry="220" fill="url(#hh-glow1)"/>
+  <ellipse cx="675" cy="360" rx="180" ry="140" fill="url(#hh-glow2)"/>
+
+  <!-- Central laser emitter geometry -->
+  <!-- Outer ring -->
+  <circle cx="580" cy="290" r="160" stroke="#3B9EDB" stroke-width="0.6" opacity="0.12"/>
+  <circle cx="580" cy="290" r="135" stroke="#3B9EDB" stroke-width="0.8" opacity="0.16"/>
+  <circle cx="580" cy="290" r="110" stroke="#3B9EDB" stroke-width="1.0" opacity="0.20"/>
+  <circle cx="580" cy="290" r="85"  stroke="#3B9EDB" stroke-width="1.2" opacity="0.26"/>
+  <circle cx="580" cy="290" r="60"  stroke="#3B9EDB" stroke-width="1.6" opacity="0.32"/>
+  <circle cx="580" cy="290" r="35"  stroke="#3B9EDB" stroke-width="2.0" opacity="0.50"/>
+
+  <!-- Core emitter dot -->
+  <circle cx="580" cy="290" r="6" fill="#3B9EDB" opacity="0.80"/>
+  <circle cx="580" cy="290" r="10" stroke="#3B9EDB" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- Laser beams radiating outward -->
+  <!-- Top beam -->
+  <line x1="580" y1="280" x2="580" y2="120" stroke="#3B9EDB" stroke-width="1.5" opacity="0.45" stroke-linecap="round"/>
+  <line x1="578" y1="275" x2="574" y2="130" stroke="#6EC6FF" stroke-width="0.6" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- Bottom beam -->
+  <line x1="580" y1="300" x2="580" y2="470" stroke="#3B9EDB" stroke-width="1.5" opacity="0.45" stroke-linecap="round"/>
+  <line x1="582" y1="305" x2="586" y2="465" stroke="#6EC6FF" stroke-width="0.6" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- Left beam -->
+  <line x1="570" y1="290" x2="400" y2="290" stroke="#3B9EDB" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- Right beam -->
+  <line x1="590" y1="290" x2="760" y2="290" stroke="#3B9EDB" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- Diagonal beams -->
+  <line x1="569" y1="281" x2="460" y2="172" stroke="#3B9EDB" stroke-width="1.2" opacity="0.30"/>
+  <line x1="591" y1="281" x2="700" y2="172" stroke="#3B9EDB" stroke-width="1.2" opacity="0.30"/>
+  <line x1="569" y1="299" x2="460" y2="408" stroke="#3B9EDB" stroke-width="1.2" opacity="0.30"/>
+  <line x1="591" y1="299" x2="700" y2="408" stroke="#3B9EDB" stroke-width="1.2" opacity="0.30"/>
+
+  <!-- Skin layer representation — horizontal bands -->
+  <rect x="390" y="450" width="380" height="8"  rx="4" fill="#3B9EDB" opacity="0.08"/>
+  <rect x="370" y="465" width="420" height="6"  rx="3" fill="#3B9EDB" opacity="0.06"/>
+  <rect x="350" y="477" width="460" height="5"  rx="2.5" fill="#3B9EDB" opacity="0.04"/>
+
+  <!-- Follicle targets along beam intersection with skin layer -->
+  <circle cx="480" cy="454" r="4" stroke="#3B9EDB" stroke-width="1.2" opacity="0.45"/>
+  <circle cx="520" cy="454" r="4" stroke="#3B9EDB" stroke-width="1.2" opacity="0.45"/>
+  <circle cx="560" cy="454" r="4" stroke="#3B9EDB" stroke-width="1.2" opacity="0.45"/>
+  <circle cx="600" cy="454" r="4" stroke="#3B9EDB" stroke-width="1.2" opacity="0.45"/>
+  <circle cx="640" cy="454" r="4" stroke="#3B9EDB" stroke-width="1.2" opacity="0.45"/>
+  <circle cx="680" cy="454" r="4" stroke="#3B9EDB" stroke-width="1.2" opacity="0.45"/>
+
+  <!-- Vertical follicle beams hitting skin -->
+  <line x1="480" y1="440" x2="480" y2="454" stroke="#6EC6FF" stroke-width="1.0" opacity="0.50"/>
+  <line x1="520" y1="435" x2="520" y2="454" stroke="#6EC6FF" stroke-width="1.0" opacity="0.50"/>
+  <line x1="560" y1="430" x2="560" y2="454" stroke="#3B9EDB" stroke-width="1.2" opacity="0.65"/>
+  <line x1="600" y1="435" x2="600" y2="454" stroke="#6EC6FF" stroke-width="1.0" opacity="0.50"/>
+  <line x1="640" y1="440" x2="640" y2="454" stroke="#6EC6FF" stroke-width="1.0" opacity="0.50"/>
+  <line x1="680" y1="445" x2="680" y2="454" stroke="#6EC6FF" stroke-width="0.8" opacity="0.40"/>
+
+  <!-- Grid overlay — precise medical aesthetic -->
+  <line x1="350" y1="150" x2="800" y2="150" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+  <line x1="350" y1="200" x2="800" y2="200" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+  <line x1="350" y1="250" x2="800" y2="250" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+  <line x1="350" y1="350" x2="800" y2="350" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+  <line x1="350" y1="400" x2="800" y2="400" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+
+  <line x1="420" y1="100" x2="420" y2="500" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+  <line x1="500" y1="100" x2="500" y2="500" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+  <line x1="660" y1="100" x2="660" y2="500" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+  <line x1="740" y1="100" x2="740" y2="500" stroke="#3B9EDB" stroke-width="0.4" opacity="0.08"/>
+
+  <!-- Sparkle accents -->
+  <path d="M 760 160 L 762 153 L 764 160 L 771 162 L 764 164 L 762 171 L 760 164 L 753 162 Z"
+        fill="#3B9EDB" opacity="0.55"/>
+  <path d="M 430 180 L 432 175 L 434 180 L 439 182 L 434 184 L 432 189 L 430 184 L 425 182 Z"
+        fill="#6EC6FF" opacity="0.45"/>
+  <circle cx="720" cy="200" r="2.5" fill="#3B9EDB" opacity="0.50"/>
+  <circle cx="445" cy="395" r="2" fill="#3B9EDB" opacity="0.40"/>
+  <circle cx="760" cy="370" r="2" fill="#6EC6FF" opacity="0.45"/>
+
+  <!-- EL monogram — faint watermark -->
+  <text x="560" y="306" font-family="Georgia, serif" font-size="18" fill="#3B9EDB" opacity="0.18" text-anchor="middle" letter-spacing="4">EL</text>
+</svg>
