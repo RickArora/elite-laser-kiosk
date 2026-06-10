@@ -271,8 +271,8 @@ function HomePage() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center p-8">
                   <MapPin size={40} className="text-primary mx-auto mb-4" />
-                  <p className="font-display text-2xl text-foreground mb-1">Scarborough Town Centre</p>
-                  <p className="text-sm text-muted-foreground">Toronto, ON</p>
+                  <p className="font-display text-2xl text-foreground mb-1">Norval, ON</p>
+                  <p className="text-sm text-muted-foreground">{BUSINESS.address.street}</p>
                 </div>
               </div>
             </div>
